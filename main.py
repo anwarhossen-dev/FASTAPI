@@ -27,3 +27,7 @@ def home():
 @app.get("/django/api")
 def home():
     return{"Type":"Django basic to advanced"}
+
+@app.get("/django/id")
+def django_api():
+    return{"Type":"Django basic to advanced"}
