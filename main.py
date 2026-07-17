@@ -8,3 +8,7 @@ def devherozone():
 @app.get("/home")
 def home():
     return{"course":"Django & Backend API development with python"}
+
+@app.get("/django/api")
+def home():
+    return{"Type":"Django basic to advanced"}
